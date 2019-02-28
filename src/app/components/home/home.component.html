@@ -1,0 +1,14 @@
+
+  <h2>The Component interaction usig obervables</h2>
+ <div class="row">
+  <div class="col-md-3"></div>
+    <div class="col-md-6">
+      <form #messageForm="ngForm" (ngSubmit)="onsubmitMessage(messageForm)">
+      <label for="msg">Input some Message</label><br>
+       <textarea id="msg" name="messagePass" ngModel>Enter some text</textarea><br>
+        <button type="submit">Home Send Message</button>
+      </form>
+    </div>
+  <div class="col-md-3"></div>
+
+</div>
