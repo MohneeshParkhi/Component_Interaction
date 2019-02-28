@@ -23,7 +23,7 @@ export class OfficeComponent implements OnInit {
   showmsg(){
     this.msgService.getMessage().subscribe((msg) =>{
         console.log(msg); 
-      this.passMess = msg;
+        this.passMess = msg;
      });
   }
 

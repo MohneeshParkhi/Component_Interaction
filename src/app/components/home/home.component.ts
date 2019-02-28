@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   }
 
   onsubmitMessage(messageForm){
-     console.log(messageForm.value.messagePass);
+     // console.log(messageForm.value.messagePass);
    this.messageService.sendMessage(messageForm.value.messagePass);
   }
 
