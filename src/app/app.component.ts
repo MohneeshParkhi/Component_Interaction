@@ -11,7 +11,11 @@ export class AppComponent {
  
   constructor(private router: Router){}
 
-  navigateToHome(){
-  this.router.navigateByUrl('/office');
+  navigateToParent(){
+  this.router.navigateByUrl('/parent');
+  }
+
+  navigateToChild(){
+    this.router.navigateByUrl('/child');
   }
 }

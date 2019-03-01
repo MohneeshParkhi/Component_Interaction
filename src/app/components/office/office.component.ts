@@ -18,13 +18,14 @@ export class OfficeComponent implements OnInit {
     //   console.log(msg); 
     //   this.passMess = msg;
     //  });
+    this.msgService.getMessage().subscribe((msg) =>{
+      console.log(msg); 
+      this.passMess = msg;
+   });
   }
    
   showmsg(){
-    this.msgService.getMessage().subscribe((msg) =>{
-        console.log(msg); 
-        this.passMess = msg;
-     });
+    
   }
 
 

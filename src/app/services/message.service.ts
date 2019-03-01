@@ -9,7 +9,7 @@ export class MessageService {
   constructor() { }
   
   public sendMessage(message: string){
-   this.subject.next({text: message});
+   this.subject.next(message);
   } 
 
   public getMessage(){

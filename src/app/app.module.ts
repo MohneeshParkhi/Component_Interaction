@@ -5,12 +5,16 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { OfficeComponent } from './components/office/office.component';
 import { AppRountingModule } from './app-rounting.module';
+import { ParentComponent } from './components/parent/parent.component';
+import { ChildComponent } from './components/child/child.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    OfficeComponent
+    OfficeComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
